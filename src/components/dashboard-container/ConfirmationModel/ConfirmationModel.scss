@@ -1,0 +1,28 @@
+.modalContentConfirmation {
+  background-color: unset;
+  margin: auto;
+  padding: 20px;
+}
+.modalContentConfirmationContainer {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 82vh;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(247, 249, 247, 0);
+}
+.modalContent {
+  color: darkgreen;
+}
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
+  small {
+    font-size: 0.5em;
+  }
+}

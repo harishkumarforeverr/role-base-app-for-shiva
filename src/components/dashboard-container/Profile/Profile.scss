@@ -1,0 +1,60 @@
+.userContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  .editButtonStyle {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: flex-end;
+  }
+  .editButton {
+    cursor: pointer;
+    padding: 12px;
+    border: 0px;
+    color: #ffffff;
+    background: #3498db;
+    border-radius: 5px;
+  }
+  h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    small {
+      font-size: 0.5em;
+    }
+  }
+
+  .responsiveTable {
+    .tableRow {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      width: 80%;
+      margin: 3rem auto;
+    }
+    .dataContainer {
+      width: 100%;
+      height: 6rem;
+      display: grid;
+      align-items: center;
+      padding-left: 3%;
+      box-shadow: 0 6px 16px -8px #00000014, 0 9px 28px #0000000d,
+        0 12px 48px 16px #00000008;
+    }
+    .headers {
+      font-size: 1.3rem;
+      text-align: left;
+      font-weight: 700;
+      margin-bottom: 11px;
+      color: #53bbb4;
+    }
+    .details {
+      margin-top: -2rem;
+      font-size: 1.2rem;
+      text-align: left;
+      font-weight: 500;
+      color: #b0779a;
+    }
+  }
+}

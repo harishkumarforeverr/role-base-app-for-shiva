@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-size: cover;
+  font-family: sans-serif; 
+}
+:root {
+  --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+  --gray: #34495e;
+  --darkgray: #2c3e50;
+}
+.title {
+  color: #2d80b5;
+}
+.errorMessage {
+  color: red;
+}
+
+.errorSpacing {
+  color: red;
+  margin-top: -1.2rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+.errorSpacingSelect {
+  color: red;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}

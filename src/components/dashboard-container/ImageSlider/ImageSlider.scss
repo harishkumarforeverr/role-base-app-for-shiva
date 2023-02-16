@@ -1,0 +1,57 @@
+.imageSliderConatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  // margin-top: -2rem;
+  position: relative;
+  img.sliderImages {
+    width: 60rem;
+    margin-top: 1.5rem;
+  }
+  .arrow {
+    position: absolute;
+    cursor: pointer;
+    width: 4.5rem;
+  }
+  .leftArrow {
+    left: 0;
+    top: 50%;
+  }
+  .RightArrow {
+    right: 0;
+    top: 50%;
+  }
+}
+.actionsButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // gap: 3rem;
+  // margin-top: 2rem;
+  // margin-left: 1rem;
+  button {
+    cursor: pointer;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 10px;
+    border-color: snow;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+  }
+  .redColor {
+    background: red;
+  }
+  .greenColor {
+    background-color: green;
+  }
+  .leftToRight {
+    background-color: dodgerblue;
+  }
+  .rightToLeft {
+    background-color: lightskyblue;
+  }
+}

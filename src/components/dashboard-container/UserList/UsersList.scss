@@ -1,0 +1,149 @@
+.adminContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  .adminDashboardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+  }
+  .globalSearch {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+    input {
+      width: 17rem;
+      height: 2.4rem;
+    }
+  }
+  .globalSearchButton {
+    margin-left: 0.15rem;
+    height: 2.4rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 12px;
+    min-width: 10px;
+    border: 0px;
+    color: #ffffff;
+      border-radius: 5px;
+  }
+  .success {
+    background: #2ecc71;
+  }
+  .danger {
+    background: #e74c3c;
+  }
+  .responsiveTable {
+    li {
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    .tableTitle {
+      background-color: #36454f;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: #fefefe;
+    }
+    .tableRow {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    }
+    .col {
+      font-size: 0.65rem;
+      word-break: break-all;
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+  // edit , delete buttons styles
+  .actionButtons {
+    border-radius: 5px;
+    appearance: none;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    margin-top: -0.51rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 12px;
+    border: 0px;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+    color: #ffffff;
+  }
+
+  .primary {
+    background: #3498db;
+  }
+  .centerTheContext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    small {
+      font-size: 0.5em;
+    }
+  }
+}
+
+.sidebar {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  padding-top: 0.8rem;
+  .logoutButton {
+    position: fixed;
+    left: 3rem;
+    bottom: 1rem;
+  }
+}
+
+/* The Modal (background) */
+.modalDelete {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  input {
+    height: 2rem;
+    margin-right: 1rem;
+    width: 80%;
+  }
+  .modalContent {
+    background-color: white;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+  button {
+    width: 2rem;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+  }
+}
